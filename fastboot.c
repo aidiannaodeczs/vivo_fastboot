@@ -1091,6 +1091,10 @@ int main(int argc, char **argv)
             argc = do_oem_command(argc, argv);
         } else if(!strcmp(*argv, "bbk")) {
             argc = do_oem_command(argc, argv);
+        } else if(!strcmp(*argv, "vivo_fastboot_unlock")) {
+            argc = do_oem_command(argc, argv);
+        } else if(!strcmp(*argv, "unlock")) {
+            argc = do_oem_command(argc, argv);
         } else {
             usage();
             return 1;
